@@ -13,7 +13,7 @@ var Tutorials = require('./models/Tutorial');
 
 
 // ----------------------
-// Configuratoin 
+// Configuration 
 // ----------------------
 var port = process.env.PORT || 8080; // used to create sign and verify tokens
 mongoose.connect(config.database); // connect to database
