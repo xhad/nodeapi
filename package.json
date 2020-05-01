@@ -4,7 +4,9 @@
   "description": "Code Tutorials",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +18,8 @@
     "mongoose": "^4.2.4",
     "resourcejs": "^1.0.0",
     "morgan": "latest",
-    "jsonwebtoken": "latest"
-  }
+    "jsonwebtoken": "latest",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
