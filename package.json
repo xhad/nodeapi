@@ -14,7 +14,7 @@
     "lodash": "^3.10.1",
     "method-override": "^2.3.5",
     "mongoose": "^4.2.4",
-    "resourcejs": "^1.0.0",
+    "resourcejs": "^2.0.0",
     "morgan": "latest",
     "jsonwebtoken": "latest"
   }
